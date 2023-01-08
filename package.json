@@ -1,0 +1,23 @@
+{
+	"name": "clipboard-project",
+	"version": "1.0.0",
+	"description": "Clipboard-Hompage-Project",
+	"main": "tailwind.config.js",
+	"scripts": {
+		"build": "tailwindcss -i ./input.css -o ./css/style.css",
+		"watch": "tailwindcss -i ./input.css -o ./CSS/style.css --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JaiminR28/Clipboard.git"
+	},
+	"author": "Jaimin Rathwa",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/JaiminR28/Clipboard/issues"
+	},
+	"homepage": "https://github.com/JaiminR28/Clipboard#readme",
+	"devDependencies": {
+		"tailwindcss": "^3.2.4"
+	}
+}
